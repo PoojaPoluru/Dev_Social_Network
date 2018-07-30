@@ -6,7 +6,7 @@ const Schema=mongoose.Schema;  //Schema is how you define data
 const  UserSchema=new Schema({
   name:{
     type:String,
-    requires:true
+    required:true
   },
   email:{
     type:String,
